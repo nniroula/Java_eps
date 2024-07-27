@@ -1,4 +1,4 @@
-#### Employee Payroll System(eps) version 1
+#### Employee Payroll System version 1 (epsV1) 
 
 An Employee Payroll System that calculates the gross pay of an employee
 <hr>
