@@ -16,4 +16,9 @@ public class PartTimeEmployee extends Employee{
 		double grossPay = hoursWorked * hourlyPayRate;
 		return grossPay;
 	}
+
+	@Override
+	String displaySalary() {
+		return "$" + calculateSalary();
+	}
 }

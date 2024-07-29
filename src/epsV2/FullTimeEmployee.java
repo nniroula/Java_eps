@@ -14,5 +14,11 @@ public class FullTimeEmployee extends Employee{
 	double calculateSalary() {
 		return monthlySalary;
 	}
+
+	@Override
+	String displaySalary() {
+	
+		return "$" + monthlySalary;
+	}
 	
 }
