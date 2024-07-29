@@ -2,7 +2,7 @@
 An Employee Payroll System App that calculates the gross pay of an employee
 <hr>
 
-##### Version-1 (epsV1) 
+#### Version-1 (epsV1) 
 
 - This version implements OOP concepts and Static List:-
 	- ``Encapsulation`` - private access modifier for instance variables <br>
@@ -13,7 +13,7 @@ An Employee Payroll System App that calculates the gross pay of an employee
 	
 <hr>	
 
-##### Version-2 (epsV2) 
+#### Version-2 (epsV2) 
 
 - This version implements OOP concepts plus following:- 
 	- ``I/O`` - gets user input <br>
@@ -23,7 +23,7 @@ An Employee Payroll System App that calculates the gross pay of an employee
 	
 <hr>
 
-##### Version-3 (epsV3) 
+#### Version-3 (epsV3) 
 
 - This version implements the following:- 
 	- ``DAO Layer`` - Data Abstraction <br>
@@ -34,14 +34,14 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 <hr>
 
-##### Version-4 (epsV4) 
+#### Version-4 (epsV4) 
 
 - This version implements the following:- 
 	- ``Unit Test`` - uses JUnit5 Library <br>
 	
 <hr>
 
-##### Version-5 (epsV5) 
+#### Version-5 (epsV5) 
 
 - This version implements the following:- 
 	- ``NoSQL database`` - implements MongoDB <br>
