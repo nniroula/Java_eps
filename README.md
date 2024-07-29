@@ -17,9 +17,6 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 - This version implements OOP concepts plus following:- 
 	- ``I/O`` - gets user input <br>
-	- ``JDBC`` - Java Database Connectivity <br>
-	- ``Logging`` - uses Log4J library for message logging to a file <br>
-	- ``Database`` - MySQL
 	
 <hr>
 
@@ -29,7 +26,10 @@ An Employee Payroll System App that calculates the gross pay of an employee
 	- ``DAO Layer`` - Data Abstraction <br>
 	- ``ORM`` - Object Relation Mapper - Hibernate <br>
 	- ``JPA`` - Java Persistence API annotations<br>
-	- ``RDBMS`` - MySQL
+	- ``RDBMS`` - MySQL <br>
+	- ``JDBC`` - Java Database Connectivity <br>
+	- ``Logging`` - uses Log4J library for message logging to a file <br>
+	- ``Database`` - MySQL
 	
 
 <hr>
