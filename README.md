@@ -17,6 +17,7 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 - This version implements OOP concepts plus following:- 
 	- ``I/O`` - gets user input <br>
+	- ``Separation of Concern, abstraction and code modularization`` <br>
 	
 <hr>
 
