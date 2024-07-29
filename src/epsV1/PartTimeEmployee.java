@@ -1,6 +1,5 @@
 package epsV1;
 
-
 public class PartTimeEmployee extends Employee{
 	private int hoursWorked;
 	private double hourlyPayRate;

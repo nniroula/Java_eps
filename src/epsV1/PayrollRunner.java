@@ -1,10 +1,10 @@
 package epsV1;
 
-
 public class PayrollRunner {
 	public static void main(String[] args) {
 		System.out.println("****** Employee Payroll System - OOPS Project Version-1 ******");
 		System.out.println();
+		
 		// create a full time employee
 		FullTimeEmployee fullTimeEmployeeObject = new FullTimeEmployee("Nabin", 01, 655.00);
 		
@@ -13,7 +13,6 @@ public class PayrollRunner {
 		
 		// Employee List
 		EmployList employeeList = new EmployList();
-		
 		employeeList.addEmployee(fullTimeEmployeeObject);
 		employeeList.addEmployee(partTimeEmployeeObject);
 		
@@ -22,6 +21,5 @@ public class PayrollRunner {
 		System.out.println();
 		System.out.println(employeeList.removeEmployee(1));
 		System.out.print(employeeList.displayListOfEmployees());
-		
 	}
 }

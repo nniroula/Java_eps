@@ -9,7 +9,6 @@ abstract class Employee {
 		this.id = id;
 	}
 	
-	
 	public String getName() {
 		return name;
 	}
@@ -21,11 +20,8 @@ abstract class Employee {
 	// abstract method
 	abstract double calculateSalary();
 
-
 	@Override
 	public String toString() {
 		return "Employee - [name=" + name + ", id=" + id + "]";
 	}
-	
-	
 }

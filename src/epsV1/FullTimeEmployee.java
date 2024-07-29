@@ -1,6 +1,5 @@
 package epsV1;
 
-
 public class FullTimeEmployee extends Employee{
 	private double monthlySalary;
 
