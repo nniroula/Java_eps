@@ -18,9 +18,9 @@ abstract class Employee {
 		return id;
 	}
 	
-	// abstract method
+	// abstract methods
 	abstract double calculateSalary();
-
+	abstract String displaySalary();
 
 	@Override
 	public String toString() {
