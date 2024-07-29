@@ -6,7 +6,7 @@ import java.util.List;
 // setup employee for the payroll
 public class EmployList {
 	List<Employee> employeeList;
-	EmployList(){
+	public EmployList(){
 		employeeList = new ArrayList<>();
 	}
 	
