@@ -24,13 +24,12 @@ An Employee Payroll System App that calculates the gross pay of an employee
 #### Version-3 (epsV3) 
 
 - This version implements the following:- 
-	- ``DAO Layer`` - Data Abstraction <br>
-	- ``ORM`` - Object Relation Mapper - Hibernate <br>
-	- ``JPA`` - Java Persistence API annotations<br>
-	- ``RDBMS`` - MySQL <br>
 	- ``JDBC`` - Java Database Connectivity <br>
-	- ``Logging`` - uses Log4J library for message logging to a file <br>
-	- ``Database`` - MySQL
+		a. use ``MYSQL`` ``RDBMS``. Download MySQL connector jar <br>
+		b. add the jar file to the project as an external jar <br>
+		c. create a database, database table and connect to that database. <br>
+	- ``JDBC`` implementation is ready to work on dynamic data <br>
+
 	
 
 <hr>
@@ -39,6 +38,7 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 - This version implements the following:- 
 	- ``Unit Test`` - uses JUnit5 Library <br>
+	- ``DAO Layer`` - Data Abstraction <br>
 	
 <hr>
 
