@@ -9,7 +9,7 @@ public class JdbcRunner {
 	public void setupJdbc() {
 		String jdbcUrl = "jdbc:mysql://localhost:3306/eps_db"; // Replace eps_db with your database name
 		String username = "root"; // Replace root with your mysql username
-		//String password = "root"; // Replace root with your mySQl password
+		String password = "root"; // Replace root with your mySQl password
 		
 		
 		// ----- user input values. Get from console or GUI -------
@@ -115,7 +115,7 @@ public class JdbcRunner {
 			/* 4. UPDATE queries */
 			PreparedStatement preparedStatementUpdate = con.prepareStatement(updateQuery);
 			preparedStatementUpdate.executeUpdate();
-			// dynmaic update
+			// dynamic update
 			PreparedStatement preparedStatementUpdateDynamic = con.prepareStatement(updateQueryDynamic);
 			preparedStatementUpdateDynamic.setInt(1, inputIdForUpdate);
 			preparedStatementUpdateDynamic.executeUpdate();
