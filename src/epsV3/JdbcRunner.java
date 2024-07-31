@@ -3,28 +3,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-/*
-System.out.println("Java JDBC...");
 
-// set up for mysql database
-String url = "jdbc:mysql://localhost:3306/jdbc_db_one";
-String username = "root"; // your mysql username
-// Enter your mySQl password
-String password = "please enter your MySQL password";
-
-// sql query to retrieve all information from the table
-String getInfo = "SELECT * FROM developer_tools";	
-*/
-
-//executeUpdate() -> for delete, update and insert queries
 
 public class JdbcRunner {
 	public void setupJdbc() {
-		String jdbcUrl = "jdbc:mysql://localhost:3306/eps_db";
-		String username = "root";
-		String password = "Mysql#23";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/eps_db"; // Replace eps_db with your database name
+		String username = "root"; // Replace root with your mysql username
+		String password = "root"; // Replace root with your mySQl password
 		
-		/* insert queries */
+		/* insert queries -> executeUpdate() */
 		String insertQueryOne = "INSERT INTO employee(employee_id, name, status, payRate) VALUES(1, 'Nabin', 'Full Time', 5000)";
 		String insertQueryTwo = "INSERT INTO employee(employee_id, name, status, payRate) VALUES(2, 'John Doe', 'Part Time', 17.34)";
 		
@@ -53,7 +40,7 @@ public class JdbcRunner {
 			int numbersOfRowsAffected = preparedStatementInsertOne.executeUpdate(insertQueryOne);
 			int resultTwo = preparedStatementInsertOne.executeUpdate(insertQueryTwo);
 			
-			// with positional parameters
+			// with positional parameters - Dynamic way
 			preparedStatementInsertThree.setInt(1, associateId);
 			preparedStatementInsertThree.setString(2, associateName);
 			preparedStatementInsertThree.setString(3, status);
