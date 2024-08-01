@@ -36,9 +36,10 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 #### Version-4 (epsV4) 
 
-- This version implements the following:- 
-	- ``Unit Test`` - uses JUnit5 Library <br>
-	- ``DAO Layer`` - Data Abstraction <br>
+- This version:- 
+	- takes in console input and updates database table accordingly <br>
+	- Implements ``JDBC CRUD`` operations <br>
+	- To implement Delete and Update functionalities, uncomment the code in eps4>JdbcRunner.java file
 	
 <hr>
 
