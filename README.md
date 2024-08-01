@@ -30,8 +30,6 @@ An Employee Payroll System App that calculates the gross pay of an employee
 		c. create a database, database table and connect to that database. <br>
 	- ``JDBC`` implementation is ready to work on dynamic data <br>
 
-	
-
 <hr>
 
 #### Version-4 (epsV4) 
@@ -42,6 +40,15 @@ An Employee Payroll System App that calculates the gross pay of an employee
 	- To implement Delete and Update functionalities, uncomment the code in eps4>JdbcRunner.java file
 	
 <hr>
+
+#### How to run the project so far? 
+- Open this project in Eclipse and run it there
+- Open up terminal in your device and type ``mysql`` and hit enter <br>
+	-- Then run the command: ``source seed.sql;`` <br>
+	-- Run the command ``use eps_db(your database name);`` to connect to your database <br>
+	-- ``SELECT * FROM employee(or your table name);`` to display the list of items from the database table <br>
+	-- Then run the project in Eclipse and provide console input. Check the table as above for the update.
+
 
 #### Version-5 (epsV5) 
 
