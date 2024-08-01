@@ -9,7 +9,7 @@ public class JdbcRunner {
 	public void setupJdbc() {
 		String jdbcUrl = "jdbc:mysql://localhost:3306/eps_db";
 		String username = "root"; // Replace root with your mysql username
-		//String password = "root"; // Replace root with your mySQl password
+		String password = "root"; // Replace root with your mySQl password
 		
 		EmployeeDataIO employeeDataIo = new EmployeeDataIO();
 		employeeDataIo.getUserInputData();
