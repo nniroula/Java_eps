@@ -52,5 +52,10 @@ An Employee Payroll System App that calculates the gross pay of an employee
 
 #### Version-5 (epsV5) 
 
-- This version implements the following:- 
-	- ``NoSQL database`` - implements MongoDB <br>
+- External jar dependency management became difficult and thus, the project is converted to Maven Project:- 
+	- ``pom.xml`` - uses pom.xml (Project Object Model) file to manage external jars and library dependencies.<br>
+	- ``Servlet`` - Server side technology. Works as a controller.<br>
+	- ``TomCat Server`` - Servlet runs on TomCat Server.<br>
+	- ``JSP`` - To incorporate java code into html file. It's a view<br>
+	- ``JSTL`` - Java Standard Template Library for converting java code into html like code<br>
+	- ``JDBC`` ``RDBMS`` ``MySQL``- <br>
